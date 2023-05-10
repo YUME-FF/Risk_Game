@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.ResearchOrderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:15" hostname="Zhes-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="test_valid_tryResearch()" classname="edu.duke.ece651.team16.server.ResearchOrderTest" time="0.002"/>
+  <testcase name="test_valid_tryResearch1()" classname="edu.duke.ece651.team16.server.ResearchOrderTest" time="0.0"/>
+  <testcase name="test_valid_tryResearch2()" classname="edu.duke.ece651.team16.server.ResearchOrderTest" time="0.001"/>
+  <testcase name="test_valid_tryMove()" classname="edu.duke.ece651.team16.server.ResearchOrderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

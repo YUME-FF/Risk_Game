@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.TerritoryTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:15" hostname="Zhes-MacBook-Pro.local" time="0.008">
+  <properties/>
+  <testcase name="test_setTerritories()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="testGetUnits()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="test_name()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.001"/>
+  <testcase name="testGetUnitsString()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="test_equals()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="testTryAddUnits()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="test_DefendHome()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="testDoBattle()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="test_existBattle()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="testTryRemoveUnits()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.001"/>
+  <testcase name="testGetAliveUnitsFor()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="testGetDistance()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.001"/>
+  <testcase name="testDoBattle1()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <testcase name="testDoBattle2()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.001"/>
+  <testcase name="test_owner()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.001"/>
+  <testcase name="testSetRates()" classname="edu.duke.ece651.team16.server.TerritoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

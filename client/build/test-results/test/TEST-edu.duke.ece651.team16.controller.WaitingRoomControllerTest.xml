@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.controller.WaitingRoomControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:12:36" hostname="Zhes-MacBook-Pro.local" time="1.009">
+  <properties/>
+  <testcase name="test_next()" classname="edu.duke.ece651.team16.controller.WaitingRoomControllerTest" time="1.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

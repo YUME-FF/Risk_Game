@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.AttackAdjacentRuleCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:14" hostname="Zhes-MacBook-Pro.local" time="0.037">
+  <properties/>
+  <testcase name="test_AttackAdjacentRuleChecker()" classname="edu.duke.ece651.team16.server.AttackAdjacentRuleCheckerTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

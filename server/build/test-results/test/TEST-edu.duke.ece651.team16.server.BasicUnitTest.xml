@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.BasicUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:14" hostname="Zhes-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="testGetAlive()" classname="edu.duke.ece651.team16.server.BasicUnitTest" time="0.0"/>
+  <testcase name="testGetOwner()" classname="edu.duke.ece651.team16.server.BasicUnitTest" time="0.001"/>
+  <testcase name="testGetWhere()" classname="edu.duke.ece651.team16.server.BasicUnitTest" time="0.0"/>
+  <testcase name="testBasicUnit()" classname="edu.duke.ece651.team16.server.BasicUnitTest" time="0.001"/>
+  <testcase name="testSetWhere()" classname="edu.duke.ece651.team16.server.BasicUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

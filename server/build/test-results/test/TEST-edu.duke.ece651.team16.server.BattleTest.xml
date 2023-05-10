@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.BattleTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:14" hostname="Zhes-MacBook-Pro.local" time="0.035">
+  <properties/>
+  <testcase name="testResolveBattle_Equal()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.026"/>
+  <testcase name="testAddGroup()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.0"/>
+  <testcase name="testFindLargest()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.001"/>
+  <testcase name="testResolveBattle2()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.001"/>
+  <testcase name="testFindSmallest()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.001"/>
+  <testcase name="testResolveBattle()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.004"/>
+  <testcase name="testCheckGroupExisted()" classname="edu.duke.ece651.team16.server.BattleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

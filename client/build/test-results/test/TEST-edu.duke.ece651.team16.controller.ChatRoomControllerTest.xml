@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.controller.ChatRoomControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:33" hostname="Zhes-MacBook-Pro.local" time="6.037">
+  <properties/>
+  <testcase name="test_()" classname="edu.duke.ece651.team16.controller.ChatRoomControllerTest" time="6.037"/>
+  <system-out><![CDATA[Connecting to 127.0.0.1 on port 4321
+recieve: server:hello
+recieve: red:hello
+recieve: playerlist:red blue
+recieve: map:hello
+recieve: blue:hello
+[red, blue]
+send: red: hello:blue
+send: hello
+]]></system-out>
+  <system-err><![CDATA[May 02, 2023 5:11:33 PM com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @815b41f'
+]]></system-err>
+</testsuite>

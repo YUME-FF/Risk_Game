@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.controller.GamePlayControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:43" hostname="Zhes-MacBook-Pro.local" time="34.506">
+  <properties/>
+  <testcase name="test()" classname="edu.duke.ece651.team16.controller.GamePlayControllerTest" time="34.506"/>
+  <system-out><![CDATA[receive ally from chatRoom
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Black Lake
+unitsInfo: red:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[m, Headmaster's Office, Black Lake, 0, 1]
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Whomping Willow
+unitsInfo: red:1,0,0,0,0,0,0,;
+Whomping Willow
+unitsInfo: red:1,0,0,0,0,0,0,;
+unitnum: 1
+Hogwarts Library
+unitsInfo: blue:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[a, Whomping Willow, Hogwarts Library, 0, 1]
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Hospital Wing
+unitsInfo: red:0,0,0,0,0,0,0,;
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Hogwarts Library
+unitsInfo: red:1,0,0,0,0,0,0,;
+One Order Content: Hogwarts Library
+Before onUpgradeUnits
+Before showAndWait
+After showAndWait
+Before if
+1
+0
+1
+[1, 0, 1]
+initialLevel:0
+[1, 0, 0, 0, 0, 0, 0]
+myOrder:[u, Hogwarts Library, 1, 0, 1]
+after recvMsg
+after sendResponse
+[u, Hogwarts Library, 1, 0, 1]
+After onUpgradeUnits
+Room of Requirement
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Room of Requirement
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[s, Disregard Adjacency]
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Hogwarts Library
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[s, Two Students Generation]
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Hogwarts Library
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+Chamber of Secret
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+One Order Content: Fiendfyre, Great Hall
+after recvMsg
+after sendResponse
+[s, Fiendfyre, Great Hall]
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Hogwarts Library
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[s, Double Resource Production]
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Hogwarts Library
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[s, Dice Advantage]
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:1,0,0,0,0,0,0,;
+Hogwarts Library
+unitsInfo: blue:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Hospital Wing
+unitsInfo: red:0,0,0,0,0,0,0,;
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[r]
+before ifblue
+blue
+after recvMsg
+after sendResponse
+[l, blue]
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Room of Requirement
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Room of Requirement
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Room of Requirement
+unitsInfo: blue:0,0,0,0,0,0,0,;
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;blue:1,0,0,0,0,0,0,
+Headmaster's Office
+unitsInfo: red:0,0,0,0,0,0,0,;blue:1,0,0,0,0,0,0,
+before ifblue
+blue
+after recvMsg
+after sendResponse
+[l, blue]
+want to send: server:red Successful alliance with blue.:All
+Quidditch Pitch
+unitsInfo: blue:0,0,0,0,0,0,0,;
+after recvMsg
+after sendResponse
+[d]
+finished stage
+Chamber of Secret
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+Great Hall
+unitsInfo: yellow:0,0,0,0,0,0,0,;
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

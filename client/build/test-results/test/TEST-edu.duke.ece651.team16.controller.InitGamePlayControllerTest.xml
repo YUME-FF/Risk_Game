@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.controller.InitGamePlayControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:12:18" hostname="Zhes-MacBook-Pro.local" time="1.811">
+  <properties/>
+  <testcase name="testInitGamePlayController()" classname="edu.duke.ece651.team16.controller.InitGamePlayControllerTest" time="1.811"/>
+  <system-out><![CDATA[My territory: Black Lake
+onInitAssignUnits, sum is 1, maxunits is 24
+put 1 in myterritory
+Assign 1 in Black Lake
+msg is {"red":[{"TerritoryName":"Black Lake","Rate":"Food Rate:5, Tech Rate:5","Neighbors":"(next to:brodie:5,smith:5,dukeChapel:5)","Resource":"(Food:60 Tech:60 Tech Level:1)","Unit":"0,0,0,0,0,0,0,"}]}
+Connecting to 127.0.0.1 on port 4321
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

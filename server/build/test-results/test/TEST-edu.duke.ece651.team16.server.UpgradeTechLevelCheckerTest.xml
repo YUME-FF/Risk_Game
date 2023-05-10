@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.UpgradeTechLevelCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:15" hostname="Zhes-MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="test_invalid()" classname="edu.duke.ece651.team16.server.UpgradeTechLevelCheckerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

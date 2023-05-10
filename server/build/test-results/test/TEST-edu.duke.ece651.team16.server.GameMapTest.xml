@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.GameMapTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:14" hostname="Zhes-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="test_createBasic()" classname="edu.duke.ece651.team16.server.GameMapTest" time="0.002"/>
+  <testcase name="test_createTest()" classname="edu.duke.ece651.team16.server.GameMapTest" time="0.002"/>
+  <testcase name="test_getColorList()" classname="edu.duke.ece651.team16.server.GameMapTest" time="0.001"/>
+  <testcase name="testGetTerritoryList()" classname="edu.duke.ece651.team16.server.GameMapTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

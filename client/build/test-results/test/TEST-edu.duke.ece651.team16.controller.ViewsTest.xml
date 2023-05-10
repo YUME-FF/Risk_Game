@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.controller.ViewsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:12:36" hostname="Zhes-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="test_displayInitialMap()" classname="edu.duke.ece651.team16.controller.ViewsTest" time="0.001"/>
+  <testcase name="test_displayEntry()" classname="edu.duke.ece651.team16.controller.ViewsTest" time="0.001"/>
+  <testcase name="test_isWatch()" classname="edu.duke.ece651.team16.controller.ViewsTest" time="0.0"/>
+  <testcase name="test_displayLog()" classname="edu.duke.ece651.team16.controller.ViewsTest" time="0.001"/>
+  <testcase name="test_displayMap()" classname="edu.duke.ece651.team16.controller.ViewsTest" time="0.0"/>
+  <system-out><![CDATA[Failed to convert json string to json object.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

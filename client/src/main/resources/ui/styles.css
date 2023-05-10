@@ -1,0 +1,368 @@
+@import url('https://fonts.cdnfonts.com/css/parry-hotter');
+@import url('https://fonts.cdnfonts.com/css/wizard-world');
+
+.hp-risk-game-text {
+    /* -fx-font-family: 'Harry Potter', sans-serif; */
+    -fx-font-family: 'Parry Hotter', sans-serif;
+    -fx-font-size: 4.0em;
+    -fx-fill: #484643;
+    -fx-stroke: #484643;
+    -fx-stroke-width: 0.2;
+}
+
+.pass-text {
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2.0em;
+}
+
+.history-text {
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1.5em;
+}
+
+.room-text {
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 3.0em;
+}
+
+.house-text {
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 5.0em;
+}
+
+.expandable {
+    -fx-max-width: infinity;
+    -fx-max-height: infinity;
+}
+
+.button-login {
+    -fx-background-color: #576e6c;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2.0em;
+}
+
+.button-login:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #4d7a7c 0%, #435f60 100%),
+        #576e6c,
+        linear-gradient(to bottom, #5e7d7f, #576e6c),
+        radial-gradient(center 50% 50%, radius 100%, #3c5759, #576e6c);
+}
+
+.button-start {
+    -fx-background-color: #b5b292;
+    -fx-text-fill: #405354;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2.0em;
+    -fx-background-radius: 10;
+}
+
+.button-start:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #9ea583 0%, #8d9575 100%),
+        #b5b292,
+        linear-gradient(to bottom, #b9b696, #b5b292),
+        radial-gradient(center 50% 50%, radius 100%, #a2aa88, #b5b292);
+}
+
+.button-room {
+    -fx-background-color: #b6544f;
+    -fx-text-fill: #e3b17f;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2.0em;
+    -fx-background-radius: 10;
+}
+
+.button-room:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #9d4943 0%, #8a3d39 100%),
+        #b6544f,
+        linear-gradient(to bottom, #ba5953, #b6544f),
+        radial-gradient(center 50% 50%, radius 100%, #a14a44, #b6544f);
+}
+
+.button-waiting {
+    -fx-background-color: #c7b4a2;
+    -fx-text-fill: #9e540e;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 3.0em;
+    -fx-background-radius: 5;
+}
+
+.button-waiting:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #b1a18e 0%, #9f8e7a 100%),
+        #c7b4a2,
+        linear-gradient(to bottom, #cbaa96, #c7b4a2),
+        radial-gradient(center 50% 50%, radius 100%, #beaa93, #c7b4a2);
+}
+
+.button-next {
+    -fx-background-color: #bbc6cc;
+    -fx-text-fill: #49657b;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 3.0em;
+    -fx-background-radius: 5;
+}
+
+.button-next:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #a6b9c0 0%, #92abc5 100%),
+        #bbc6cc,
+        linear-gradient(to bottom, #bfd0d6, #bbc6cc),
+        radial-gradient(center 50% 50%, radius 100%, #b2c2c8, #bbc6cc);
+}
+
+.button-territory {
+    -fx-background-color: #d7b580;
+    -fx-text-fill: #73532e;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1.0em;
+    -fx-background-radius: 10;
+}
+
+.button-territory:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #c2a06d 0%, #b0915f 100%),
+        #d7b580,
+        linear-gradient(to bottom, #dbba86, #d7b580),
+        radial-gradient(center 50% 50%, radius 100%, #cca775, #d7b580);
+}
+
+.button-red {
+    -fx-background-color: rgb(255, 168, 158);
+    -fx-text-fill: #a27c51;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1.0em;
+    -fx-background-radius: 10;
+}
+
+.button-red:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, rgb(255, 149, 138) 0%, rgb(255, 130, 118) 100%),
+        rgb(255, 168, 158),
+        linear-gradient(to bottom, rgb(255, 173, 163), rgb(255, 168, 158)),
+        radial-gradient(center 50% 50%, radius 100%, rgb(255, 159, 148), rgb(255, 168, 158));
+}
+
+.button-blue {
+    -fx-background-color: rgb(175, 206, 252);
+    -fx-text-fill: #a27c51;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1.0em;
+    -fx-background-radius: 10;
+}
+
+.button-blue:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, rgb(154, 192, 248) 0%, rgb(133, 178, 244) 100%),
+        rgb(175, 206, 252),
+        linear-gradient(to bottom, rgb(179, 211, 254), rgb(175, 206, 252)),
+        radial-gradient(center 50% 50%, radius 100%, rgb(164, 199, 250), rgb(175, 206, 252));
+}
+
+.button-green {
+    -fx-background-color: rgb(173, 214, 173);
+    -fx-text-fill: #a27c51;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1.0em;
+    -fx-background-radius: 10;
+}
+
+.button-green:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, rgb(153, 204, 153) 0%, rgb(133, 194, 133) 100%),
+        rgb(173, 214, 173),
+        linear-gradient(to bottom, rgb(177, 218, 177), rgb(173, 214, 173)),
+        radial-gradient(center 50% 50%, radius 100%, rgb(163, 208, 163), rgb(173, 214, 173));
+}
+
+.button-yellow {
+    -fx-background-color: rgb(253, 240, 189);
+    -fx-text-fill: #a27c51;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+    -fx-transition: all 0.2s ease;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1.0em;
+    -fx-background-radius: 10;
+}
+
+.button-yellow:hover {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, rgb(251, 229, 168) 0%, rgb(249, 218, 147) 100%),
+        rgb(253, 240, 189),
+        linear-gradient(to bottom, rgb(255, 242, 196), rgb(253, 240, 189)),
+        radial-gradient(center 50% 50%, radius 100%, rgb(253, 236, 182), rgb(253, 240, 189));
+}
+
+.default-line {
+    -fx-stroke: #805c33;
+    -fx-stroke-width: 5;
+    -fx-opacity: 0.8;
+}
+
+.highlight-line {
+    -fx-stroke: linear-gradient(to left, #a27c51, #f76c5d);
+    -fx-stroke-width: 5;
+    -fx-opacity: 0.9;
+    -fx-stroke-dash-array: 20 10;
+    -fx-stroke-dash-offset: 0;
+}
+
+.choice-box {
+    -fx-background-color: #bdada3;
+    -fx-mark-color: #b6544f;
+}
+
+.choice-box>.label {
+    -fx-text-fill: rgb(17, 17, 17);
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2em;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #bdada3;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #948177;
+}
+
+.choice-box .menu-item>.label {
+    -fx-text-fill: #463b38;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2em;
+}
+
+.choice-box .menu-item:focused>.label {
+    -fx-text-fill: black;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 2em;
+}
+
+.choice-box2 {
+    -fx-background-color: #bdada3;
+    -fx-mark-color: #b6544f;
+}
+
+.choice-box2>.label {
+    -fx-text-fill: rgb(17, 17, 17);
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1em;
+}
+
+.choice-box2 .context-menu {
+    -fx-background-color: #bdada3;
+}
+
+.choice-box2 .menu-item:focused {
+    -fx-background-color: #948177;
+}
+
+.choice-box2 .menu-item>.label {
+    -fx-text-fill: #463b38;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1em;
+}
+
+.choice-box2 .menu-item:focused>.label {
+    -fx-text-fill: black;
+    -fx-font-family: 'Wizard World', sans-serif;
+    -fx-font-size: 1em;
+}
+
+/* Toolbar style */
+.tool-bar {
+    -fx-background-color: #73532e;
+    /* Background color */
+    -fx-padding: 5 10 5 10;
+    /* Top, Right, Bottom, Left padding */
+}
+
+/* Toolbar button style */
+.tool-bar .button {
+    -fx-background-color: #fdefd7;
+    -fx-text-fill: #322515;
+    -fx-border-radius: 3;
+    -fx-padding: 5 10 5 10;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.2em;
+    -fx-font-family: 'Wizard World', sans-serif;
+}
+
+/* Toolbar button hover/focus style */
+.tool-bar .button:hover,
+.tool-bar .button:focused {
+    -fx-background-color: #d7b580;
+    -fx-text-fill: #322515;
+    -fx-font-size: 1.2em;
+}
+
+/* Toolbar button selected style */
+.tool-bar .button:selected {
+    -fx-background-color: #d7b580;
+    -fx-text-fill: #322515;
+    -fx-font-size: 1.2em;
+}
+
+.text-area1 {
+    -fx-background-color: #d7b580;
+    -fx-background-insets: 0;
+    -fx-border-color: #7f715f;
+    -fx-border-width: 3px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Wizard World", sans-serif;
+    -fx-text-fill: #73532e;
+}
+
+.text-area-history {
+    -fx-background-color: #d7b580;
+    -fx-border-color: #7f715f;
+    -fx-font-size: 15px;
+    -fx-font-family: "Wizard World", sans-serif;
+    -fx-text-fill: #322515;
+}
+
+.spinner {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 2px;
+    -fx-border-radius: 10px;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: #d7b580;
+}
+
+.spinner .text-field {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #322515;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+    -fx-font-family: "Wizard World", sans-serif;
+    -fx-pref-width: 70;
+    -fx-opacity: 0.8;
+}
+
+.spinner .increment-arrow,
+.spinner .decrement-arrow {
+    -fx-background-color: #7f715f;
+    -fx-background-insets: 0;
+    -fx-padding: 5px;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+    -fx-background-color: #a27c51;
+}

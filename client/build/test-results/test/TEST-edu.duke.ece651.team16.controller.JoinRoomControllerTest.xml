@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.controller.JoinRoomControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:12:20" hostname="Zhes-MacBook-Pro.local" time="7.656">
+  <properties/>
+  <testcase name="testSearchRoom()" classname="edu.duke.ece651.team16.controller.JoinRoomControllerTest" time="3.922"/>
+  <testcase name="testSearchRoom2()" classname="edu.duke.ece651.team16.controller.JoinRoomControllerTest" time="2.072"/>
+  <testcase name="testSearchRoom3()" classname="edu.duke.ece651.team16.controller.JoinRoomControllerTest" time="1.661"/>
+  <system-out><![CDATA[Room ID: 123
+Room ID: 123
+Room ID: 123
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

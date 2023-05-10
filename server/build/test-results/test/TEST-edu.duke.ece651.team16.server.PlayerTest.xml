@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.PlayerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:15" hostname="Zhes-MacBook-Pro.local" time="0.007">
+  <properties/>
+  <testcase name="test_getConnection()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="test_placeUnit1()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.001"/>
+  <testcase name="testAlly()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="testPlayerRemaining()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.001"/>
+  <testcase name="testnewResource2()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="testGenerateUnit2()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.001"/>
+  <testcase name="testFindNextUnplacedUnits()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="test_getColor()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="test_addTerritory()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.001"/>
+  <testcase name="test_TerritoryNames()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="testSetters()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="test_placeUnit()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <testcase name="test_units()" classname="edu.duke.ece651.team16.server.PlayerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

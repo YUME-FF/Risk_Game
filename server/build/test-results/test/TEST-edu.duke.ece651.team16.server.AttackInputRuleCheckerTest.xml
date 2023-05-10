@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.team16.server.AttackInputRuleCheckerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-05-02T21:11:14" hostname="Zhes-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="test_from_not_owner()" classname="edu.duke.ece651.team16.server.AttackInputRuleCheckerTest" time="0.001"/>
+  <testcase name="test_pass()" classname="edu.duke.ece651.team16.server.AttackInputRuleCheckerTest" time="0.001"/>
+  <testcase name="test_not_enough_units()" classname="edu.duke.ece651.team16.server.AttackInputRuleCheckerTest" time="0.001"/>
+  <testcase name="test_to_owner()" classname="edu.duke.ece651.team16.server.AttackInputRuleCheckerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
