@@ -19,144 +19,169 @@ See requirements in [prj1.pdf](prj1.pdf)
 ### UML Diagram
 ```mermaid
 classDiagram
-    Map "1" --> "N" Territory
-    Server "1" --> "N" Map
+    ServerApp "1" --> "1" Server
+    ClientApp "1" --> "N" Client
+    Server "1" --> "N" Player
     Server "1" --> "1" RuleChecker
-    Server -- Client : Link
-    Server --> ActionHandle
-    Server --> mapFactory
-    ActionHandle --> Action
-    Client --> Unit
-    Client "1" --> "N" Territory
-    Game "1" --> "1" Server
-    Game "1" --> "N" Client
-    Displayable <|.. mapTextView
-    Displayable <|.. mapGUIView
-
-    Displayable <-- Client
-
+    Player "1"--> "N" Territory
+    Player "1" --> "N" Order
+    Territory "1"--> "N" Unit
+    Unit <|.. BasicUnit
+    Client "1" --> "1" Connection
+    Server "1"--> "1" Connection
+    Client "1" --> "1" Actions
+    Client "1" --> "1" Views
+    Client "1" --> "1" InputChecker
+    
+    Territory "1" --> "0..1" Battle
+    Battle --> Combat
+    
     RuleChecker <|-- MoveInputChecker
     RuleChecker <|-- MovePathChecker
     RuleChecker <|-- AttackInputChecker
     RuleChecker <|-- AttackAdjacentChecker
 
-    AttackAction --|> Action
-    MoveAction --|> Action
-
-    class Game {
-        -Server server
-        -Client client
-        -String phase
-        +main(args: String[])
-        
-    }
+    AttackOrder --|> Order
+    MoveOrder --|> Order
     
-    class Server{
-        -String port
-        +checkRule()
-        +checkWin(): Client
-        +makeMap(): Map
-        +sendMap(Client c,Map m): void
-        +unitPlacement(): void
-        +checkifCommit(): boolean
-        +distributeTerritoryGroups(Map m): void
-        +listen(): void
-        +doPlacementPhase(): void
-        +doMovePhase(): void
-        +doAttackPhase(): void
-        +processOneMove() //
-        +processOneAttack()
-        +automaticCommit(): void
-    }
+    Battle "1" --> "N" AttackOrder
+
+class Client {
     
-    class Client{
-        -boolean ifLost
-        -string color
-        +displayMap(): Displayable
-        +unitPlacement(): Displayable
-        +exit(): void
-        +connectServer(): void
-        +chooseTerritoryGroup(Map m): void
-        +checkLost(): boolean
-        +setColor(String c): void
-        +addTerritory(Territory t): void
-        +sendMoveOrder(Territory from, Territory to, int unit): void
-        +sendAttackOrder(Territory from, Territory to, int unit): void
-        +commitMove(): void
-        +displayWin(): void
-    }
+}
 
-    class Map {
-        -HashMap~Territory, Client~ map
-    }
+class Connection {
+    - Socket socket
+    + send(): void
+    + recv(): void
+}
 
+class Actions {
+    - BufferedReader inputReader
+    - PrintStream out
+    - Connection conn
+    + selectColor(String prompt): void
+    + distributeUnits(String prompt): void
+    + enterOrder(String prompt): void
+    + loseChoice(String prompt): void
+    + commit(String prompt): void
+}
 
-    class mapFactory{
-      <<interface>>
-    }
+class Views {
+    - boolean watch
+    + displayMap(): String
+    + displayChoices(): String
+    + displayWin(): String
+    + displaylost(): String
+}
 
-    class Territory {
-        -String name
-        -Set~Territory~ neighbours
-        -int units
-        +getName():String
-        +getNeighbours():Set~Territory~
-        +getNumofUnits():int 
-    }
-
-    class Unit{
-        Client owner
-        Territory pos
-    }
-
-    class Action {
-        -Client Client
-        -int unit
-        -Territory from
-        -Territory to 
-        -Rulechecker checker
-        +getClient(): Client    
-    }
-
-    class MoveAction{
-        + tryMove(): boolean
-    }
-
-    class AttackAction{
-        + tryAttack(): boolean
-    }
-
-    class Displayable{
+class InputChecker{
     <<interface>>
-        +Display(): void
-    }
+    + checkInput()
+}
 
-    class mapTextView{
-    }
+class Server {
+    - RuleChecker
+    + doPlacementPhase(): void
+    + doOrderPhase(): void
+    + doOrderTurn(): void
+    + determineWinner(): void
+    + formMap(): void
+}
 
-    class mapGUIView{
-    }
+class Player {
+    - Territory[] Territories
+    - String name
+    - String color
+    - Connection connection
+    + updateTerritories(Territory[]): void
+    + updateUnits(Unit[] unit_in): void
+    + doOnePlacement(Territory): void
+    + doOneOrder(): void
+    + checklost(): boolean
+}
 
-    class RuleChecker {
-        -RuleChecker<T> next
-        #checkMyRule()
-    }
+class BasicUnit {
+    - Player owner
+    - Territory where
+    - boolean isAttacker
+    - int id
+    - boolean alive
+}
 
-    class MoveInputChecker{
-        #checkMyRule():
-    }
+class Unit {
+<<interface>>
 
-     class MovePathChecker{
-        #checkMyRule():
-    }
+}
 
-    class AttackInputChecker{
-        #checkMyRule():
-    }
+class Territory {
+    - string name
+    - Territory[] neighbor
+    - Unit[] localBasicUnit
+    - Player owner
+    - Battle ongingBattle
+    + update(String playerName, Unit[] units): void
+    + getBattle(): Battle
+}
 
-    class AttackAdjacentChecker{
-        #checkMyRule():
-    }
+class Combat{
+    + rolldice(): int
+    + determineWin(Unit A, Unit B): void
+}
 
+class Battle{
+    - HashMap~String playername, Unit[]~Parties
+    + resolveBattle(): playername, Units[]
+    + checkPartyAlive(String playername): boolean
+    + addGroup(): void
+}
+
+class Order{
+    -Territory from
+    -Territory to 
+    -string playerName
+}
+class MoveOrder{
+    + tryMove(): boolean
+}
+
+class AttackOrder{
+    + tryAttack(): boolean
+}
+
+class RuleChecker {
+    -RuleChecker<T> next
+    #checkMyRule()
+}
+
+class MoveInputChecker{
+    #checkMyRule():
+}
+
+class MovePathChecker{
+    #checkMyRule():
+}
+
+class AttackInputChecker{
+    #checkMyRule():
+}
+
+class AttackAdjacentChecker{
+    #checkMyRule():
+}
 ```
+### UML Description
+Some important details:
+
+| Class  | Method | Description |
+| ------------- | ------------- | ------------- |
+| Server | doPlacementPhase() | 1. assign territories into N groups and through recv() get player's choice of color. <br />2. assign each player the same number of units |
+|^      | doOrderPhase() | game main phase: order, order, order..... |
+|^      | doOrderTurn() | 1. Move + Attack <br />2. after completing all actions, add 1 unit to each territory |
+| Player | updateUnits() | update units in territory |
+| Territory | ongoingBattle(): Battle | SingleTon pattern |
+| ^         | getBattle(): Battle | If Battle exists, return Battle, otherwise, create it |
+| Combat | determineWin(Unit unit1, Unit unit2)| |
+| Battle | resolveBattle(): vector<string Name, Unit[] units[]>| Battling in a circle list|
+
 ## Implementation
