@@ -11,20 +11,22 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.lang.reflect.Field;
-import java.net.Socket;
 import java.net.ServerSocket;
-
-import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-import org.testfx.framework.junit5.ApplicationTest;
-
+import java.net.Socket;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+import org.testfx.api.FxRobot;
+import org.testfx.framework.junit5.Start;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.testfx.framework.junit5.ApplicationExtension;
 import static org.testfx.util.WaitForAsyncUtils.waitForFxEvents;
 
-public class InitGamePlayControllerTest extends ApplicationTest {
+@ExtendWith(ApplicationExtension.class)
+public class InitGamePlayControllerTest {
     private InitGamePlayController initGamePlayController;
     private Client client;
 
@@ -71,7 +73,7 @@ public class InitGamePlayControllerTest extends ApplicationTest {
         socketReceiveField.set(client, mockReader);
     }
 
-    @Override
+    @Start
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/InitGamePlay.fxml"));
         AnchorPane root = loader.load();
@@ -92,7 +94,7 @@ public class InitGamePlayControllerTest extends ApplicationTest {
     }
 
     @Test
-    public void testInitGamePlayController() throws IOException, Exception {
+    public void testInitGamePlayController(FxRobot robot) throws IOException, Exception {
         new Thread(() -> {
             try {
                 ServerSocket socket = new ServerSocket(4321);
@@ -102,9 +104,9 @@ public class InitGamePlayControllerTest extends ApplicationTest {
                 e.printStackTrace();
             }
         }).start();
-        clickOn(610.0, 268.0);
+        robot.clickOn(610.0, 268.0);
         waitForFxEvents();
-        clickOn("#assignUnits").clickOn();
+        robot.clickOn("#assignUnits").clickOn();
         waitForFxEvents();
     }
 
