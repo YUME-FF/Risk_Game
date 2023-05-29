@@ -418,14 +418,14 @@ class AttackAdjacentRuleChecker{
 ### UI Design
 
 
-<img src="https://s2.loli.net/2023/05/29/pOzU8K1PmYCSwyG.png" width="300px">
-<img src="https://s2.loli.net/2023/05/29/1MCudQSYmxFKOXB.png" width="300px">
-<img src="https://s2.loli.net/2023/05/29/I6D94tNWTmLjylY.jpg" width="300px">
-<img src="https://s2.loli.net/2023/05/29/bGmBs8lorpU59N2.png" width="300px">
-<img src="https://s2.loli.net/2023/05/29/wqvib7KnWxJfdga.jpg" width="300px">
-<img src="https://s2.loli.net/2023/05/29/cZhx43NAU9fRTbe.png" width="300px">
-<img src="https://s2.loli.net/2023/05/29/xGYw3gO2vVpyqns.jpg" width="300px">
-<img src="https://s2.loli.net/2023/05/29/QljxUIyocXkCtBn.jpg" width="300px">
+<a href="https://smms.app/image/pOzU8K1PmYCSwyG" target="_blank"><img src="https://s2.loli.net/2023/05/29/pOzU8K1PmYCSwyG.png" width="300px"></a>
+<a href="https://smms.app/image/1MCudQSYmxFKOXB" target="_blank"><img src="https://s2.loli.net/2023/05/29/1MCudQSYmxFKOXB.png" width="300px"></a>
+<a href="https://smms.app/image/I6D94tNWTmLjylY" target="_blank"><img src="https://s2.loli.net/2023/05/29/I6D94tNWTmLjylY.jpg" width="300px"></a>
+<a href="https://smms.app/image/bGmBs8lorpU59N2" target="_blank"><img src="https://s2.loli.net/2023/05/29/bGmBs8lorpU59N2.png" width="300px"></a>
+<a href="https://smms.app/image/wqvib7KnWxJfdga" target="_blank"><img src="https://s2.loli.net/2023/05/29/wqvib7KnWxJfdga.jpg" width="300px"></a>
+<a href="https://smms.app/image/cZhx43NAU9fRTbe" target="_blank"><img src="https://s2.loli.net/2023/05/29/cZhx43NAU9fRTbe.png" width="300px"></a>
+<a href="https://smms.app/image/xGYw3gO2vVpyqns" target="_blank"><img src="https://s2.loli.net/2023/05/29/xGYw3gO2vVpyqns.jpg" width="300px"></a>
+<a href="https://smms.app/image/QljxUIyocXkCtBn" target="_blank"><img src="https://s2.loli.net/2023/05/29/QljxUIyocXkCtBn.jpg" width="300px"></a>
 
 ## Game Detail
 
